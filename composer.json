@@ -16,7 +16,7 @@
   ],
   "require": {
     "ext-curl": "*",
-    "tandf/helpers": "dev-master",
+    "tandf/helpers": "v1.1",
   },
   "config": {
     "secure-http": false
