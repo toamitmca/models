@@ -1,0 +1,31 @@
+{
+  "name": "tandf/models",
+  "description": "These are models used in websites",
+  "license": "tandf",
+  "authors": [
+    {
+      "name": "Amit Kumar",
+      "email": "toamitmca@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/toamitmca/models.git"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "tandf/ecommerce": "dev-master",
+    "tandf/helpers": "dev-master",
+    "tandf/ee": "dev-master"
+  },
+  "config": {
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "TandF\\Models\\": "src/Models"
+    }
+  }
+}
