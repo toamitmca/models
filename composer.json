@@ -16,9 +16,7 @@
   ],
   "require": {
     "ext-curl": "*",
-    "tandf/ecommerce": "dev-master",
     "tandf/helpers": "dev-master",
-    "tandf/ee": "dev-master"
   },
   "config": {
     "secure-http": false
